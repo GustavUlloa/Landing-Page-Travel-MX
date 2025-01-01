@@ -1,0 +1,43 @@
+.catalogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    grid-template-areas:"one two three";
+    font-family:  'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-items: center;   
+    padding: 20px;
+    background-color: #909ead;
+    flex-wrap: wrap;
+    } 
+
+    .one, .two, .three{
+        background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(239, 21, 115, 0.279);
+    text-align: center;    }
+
+    .text{
+        position: absolute;
+        font-size: 20px;
+        color: azure;
+        margin-left: 20px;
+    }
+
+    .button_ctl{
+        color: rgb(255, 255, 255);
+        background-color: #094687;
+               font-size: 14px;
+                 border: none;
+            border-radius: 25px;
+    }
+
+    .button_ctl:active{
+        transform: scale(.95);}  
+
+
+    
+
+
+
+
+

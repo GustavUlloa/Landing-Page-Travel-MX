@@ -1,0 +1,27 @@
+.Jumbotron{
+    display: grid;
+    grid-template-areas:"script1  . script2";
+    color: aliceblue;
+    font-size: larger;
+    padding: 10px;
+    flex-wrap: wrap;
+   }  
+    
+.script1{
+    grid-area: script1;
+    align-content: start;
+    
+    }
+
+.script2{
+grid-area: script2;
+align-content: flex-end;
+}
+
+
+.title{
+    background-color: rgba(240, 145, 13, 0.5);
+    display: inline-block;
+}
+
+

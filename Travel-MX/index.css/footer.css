@@ -1,0 +1,41 @@
+.footer{
+    display: grid;
+    grid-template-areas:"SoportealCliente ServiciosLiverpool AcercadeLiverpool Confianzaentuscompras";
+    background-color: rgb(118, 117, 121);
+    gap: 2px;
+    height: 150px;
+    align-items: center;
+    border-top: solid white;
+    color: white;
+    }
+
+
+    .footersection{
+        background-color: rgb(118, 117, 121);
+        height: 70px;
+        align-items: center;
+        padding-top: 35px;
+        }  
+    
+    .SoportealCliente{
+        grid-area: SoportealCliente;
+        text-align: center;
+        }
+    
+    .ServiciosLiverpool{
+    grid-area: ServiciosLiverpool;
+    text-align: center;
+    }
+    
+    .AcercadeLiverpool{
+        grid-area: AcercadeLiverpool;
+        text-align: center;
+        }
+    
+        .Confianzaentuscompras{
+            grid-area: Confianzaentuscompras;
+            text-align: center;
+            }
+
+
+    

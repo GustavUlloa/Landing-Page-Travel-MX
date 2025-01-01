@@ -1,0 +1,33 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;} 
+   
+  
+.home, .about, .services, .destination, .contact{  
+    font-weight: bold; }
+  
+                    
+ .button_user_menu{
+  color: rgb(255, 255, 255);
+   background-color: #094687;
+          font-size: 14px;
+            border: none;
+       border-radius: 25px;}
+            
+ .button_user_menu:active{
+   transform: scale(.95);}            
+
+              
+ 
+ 
+
+
+
+
+
+
+
+
